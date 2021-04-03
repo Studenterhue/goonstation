@@ -91,7 +91,7 @@
 	New()
 		switch(rand(1,12))
 			if (1)
-				src.name += "Ballin' Banana Testicular Torsion flavor"
+				src.name += "I Can't Believe It's Not Discount Dan flavor"
 				src.initial_reagents["urine"] = 10
 			if (2)
 				src.name += "Radical Roadkill Rampage flavor"
