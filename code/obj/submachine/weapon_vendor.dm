@@ -295,7 +295,6 @@
 /datum/materiel/assistant/basic
 	name = "Assistant"
 	path = /obj/item/storage/belt/security/assistant
-	cost = 0.9
 	description = "One belt containing a security barrier, a forensic scanner, and a security ticket writer."
 
 //SYNDIE
@@ -441,6 +440,7 @@
 
 		assistant
 			desc = "An NT-provided token compatible with the Security Weapons Vendor. This one says <i>for security assistant use only</i>."
+			icon_state = "req-token-secass"
 
 #undef WEAPON_VENDOR_CATEGORY_SIDEARM
 #undef WEAPON_VENDOR_CATEGORY_LOADOUT
